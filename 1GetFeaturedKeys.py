@@ -2,7 +2,7 @@ import csv
 from playwright.sync_api import sync_playwright
 
 # Set the target URL
-url = "http://main.test.silicon-alliance.com/hp-intel"  # Replace with the actual URL
+url = ""  # Replace with the actual URL
 
 with sync_playwright() as p:
     browser = p.chromium.launch(headless=True)

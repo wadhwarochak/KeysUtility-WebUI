@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 from urllib.parse import urlparse, parse_qs
 import csv
 
-#url = "http://main.test.securebycisco.com/index-revised"  # Replace with your target URL
+#url = ""  # Replace with your target URL
 
-url = 'http://main.test.silicon-alliance.com/lenovo-intel'
+
 response = requests.get(url)
 soup = BeautifulSoup(response.content, "html.parser")
 
